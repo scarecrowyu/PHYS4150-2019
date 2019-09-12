@@ -42,21 +42,7 @@ If you find some problems relating to the course contents are interesting and wo
 
 ## 4. Radioactive_decay_Problem
 
- Image that we have a sample containing a large number of Uranium $𝑈^{238}$ nucleai which would be usually the case if we were actually doing an experiment to study radioactive decay. If $𝑁_𝑈 (𝑡)$ is the number of uranium nuclei that are present in the sample at time t, the behavior is governed by the differential equation,
-
-$\frac{dN_U(t)}{dt}= -\frac{N_U(t)}{\tau}$,  
-
-where $\tau$ is the time constant for the decay. The solution of the equation is simple (analytical result):
-
-$N_U(t) = N_U(0)e^{-t/\tau}$
-
-A numerical approach:
-
-$N_U(t+\Delta t) = N_U(t)+\frac{dN_U(t)}{dt}\Delta t$
-
-$N_U(t+\Delta t) = N_U(t)-\frac{N_U(t)}{\tau}\Delta t$
-
-Write a program to solve the differential equation for the radioactive decay and compare with the analytical result. Plotting a figure is needed to illustrate.
+ ![](4_Radioactive_decay_problem/RD.jpg)
 
 1. Duedate: 20190928 00:00
 
