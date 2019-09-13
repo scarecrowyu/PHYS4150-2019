@@ -53,4 +53,3 @@ If you find some problems relating to the course contents are interesting and wo
 
 3. Send me the figure comparing the results from both method via email.
 
-4. Understand and finish `code_template.m`.
