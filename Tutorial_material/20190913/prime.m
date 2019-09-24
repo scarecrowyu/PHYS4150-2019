@@ -4,17 +4,17 @@ list(1)= 2;
 num = 1;
 cur = 3;
 while(num < k)
-    if prime(cur) == true
+    if myprime(cur) == true
         num = num+1;
         list(num) = cur;
         cur = cur +1;
     else
-        cur = cur+1
+        cur = cur+1;
         continue
     end
 end
 
-function ret = prime(current)
+function ret = myprime(current)
 for x = 2: (current-1)
     if mod(current,x) == 0
         ret = false;

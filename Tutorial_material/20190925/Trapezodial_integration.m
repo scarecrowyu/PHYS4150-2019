@@ -1,0 +1,9 @@
+a = 1;
+b = 3;
+N = 10;
+h = abs((b-a)/N);
+x = linspace(a,b,N+1);
+fx = x.^3;
+I = (fx(1)/2+fx(end)/2+sum(fx(2:(end-1))))*h;
+I_real = (b^4-a^4)/4;
+error = I_real - I;

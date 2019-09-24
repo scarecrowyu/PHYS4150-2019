@@ -1,0 +1,11 @@
+a = 1;
+b = 3;
+N = 10;
+x = linspace(a,b,N+1);
+Weight = ones(1,N+1);
+Weight(3:2:end-1) = 2;
+Weight(2:2:end-1) = 4;
+Weight = Weight*(b-a)/N/3;
+I = sum((x.^3).*Weight);
+I_real = (b^4-a^4)/4;
+error = I_real - I;
