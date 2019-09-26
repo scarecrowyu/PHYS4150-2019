@@ -1,6 +1,6 @@
 a = 1;
 b = 3;
-N = 10;
+N = 50;
 h = abs((b-a)/N);
 x = linspace(a,b,N+1);
 I = 0;

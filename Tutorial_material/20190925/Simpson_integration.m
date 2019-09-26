@@ -1,6 +1,6 @@
 a = 1;
 b = 3;
-N = 10;
+N = 50;
 x = linspace(a,b,N+1);
 Weight = ones(1,N+1);
 Weight(3:2:end-1) = 2;
