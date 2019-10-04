@@ -53,3 +53,22 @@ If you find some problems relating to the course contents are interesting and wo
 
 3. Send me the figure comparing the results from both method via email.
 
+## 5. pi_Monte_Carlo_integration
+
+1. Due date: 20191019 00:00
+
+2. Calculate pi using Monte Carlo Integration method, finish `code template`.
+
+## 6. Neville_interpolation
+
+1. Due date: 20191019 00:00
+   
+2. Implement Neville interpolation method. Finish the `code template`.
+   
+3. Hint: `lecture note 3` gives you the procedure details.
+   
+## 7. cubic_spline_interpolation 
+![](7_cubic_spline_interpolation/CSI.png)
+1. Due date: 20191019 00:00
+   
+2. Finish the `code template`.
