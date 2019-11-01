@@ -72,3 +72,25 @@ If you find some problems relating to the course contents are interesting and wo
 1. Due date: 20191019 00:00
    
 2. Finish the `code_template.m`.
+
+## 8. LU_linear_equation
+
+1. Due time: 20191116 00:00
+2. Given matrix A and vector b, solve the linaer equation ```Ax = b``` using LU decomposition method.
+   * a: decompose matrix A into lower triangular matrix L and upper triangular matrix U, solve it manually, not just call the builtin function ```lu```.
+   * b:solve triangular linear equations ```Ly = b```(solve it manually, don't use the builtin method ```L\b```).
+   * c: solve the linear triangular linear equation ```Ux = y``` (solve it manually, don't use the builtin method ```U\y```).
+
+3. The detail about how to implement LU decomposition is in 20191101 tutorial: [```20191101```](https://github.com/scarecrowyu/PHYS4150-2019/blob/master/Tutorial_material/20191101/20191101.pptx). If it's too hard to write LU decomposition program, you could use [```LU decomposition```](https://github.com/scarecrowyu/PHYS4150-2019/blob/master/Tutorial_material/20191101/LU.m), but you must understand it first.
+
+## 9. Matrix_inversion
+
+1. Due time: 20191116 00:00
+2. Use Gauss-Jordan elimination to perform the matrix inversion.
+3. Details can be found in  [```20191101```](https://github.com/scarecrowyu/PHYS4150-2019/blob/master/Tutorial_material/20191101/20191101.pptx) and ```lecture_note_5```.
+
+## 10. QR_decomposition 
+
+1. Due time: 20191116 00:00
+2. Apply QR decomposition on tri-diagonal matrix. 
+3. Details can be found in ```lecture_note_5```.
